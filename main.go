@@ -1,7 +1,7 @@
 package main
 
 import (
-	controller "local/todo/controllers"
+	controller "github.com/ltl13/simple-todo-golang/controllers"
 	"log"
 	"net/http"
 )

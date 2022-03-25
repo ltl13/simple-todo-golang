@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	models "local/todo/models"
-	repo "local/todo/repositories"
+	models "github.com/ltl13/simple-todo-golang/models"
+	repo "github.com/ltl13/simple-todo-golang/repositories"
 	"net/http"
 	"strconv"
 )

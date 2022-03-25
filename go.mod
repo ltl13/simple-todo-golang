@@ -1,4 +1,4 @@
-module local/todo
+module github.com/ltl13/simple-todo-golang
 
 go 1.18
 
