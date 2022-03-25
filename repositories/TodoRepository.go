@@ -3,8 +3,8 @@ package repositories
 import (
 	"database/sql"
 	"fmt"
-	database "local/todo/database"
-	"local/todo/models"
+	database "github.com/ltl13/simple-todo-golang/database"
+	"github.com/ltl13/simple-todo-golang/models"
 )
 
 type TodoRepository struct {
