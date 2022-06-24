@@ -19,11 +19,12 @@ func GetDBInstance() *sql.DB {
 		defer lock.Unlock()
 		if dbInstance == nil {
 			cfg := mysql.Config{
-				User:   "root",
-				Passwd: "130201",
+				User: "root",
+				// Passwd: "130202001",
 				Net:    "tcp",
 				Addr:   "127.0.0.1:3306",
 				DBName: "todo_manager",
+				AllowNativePasswords: true,
 			}
 
 			var err error
